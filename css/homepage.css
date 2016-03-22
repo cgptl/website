@@ -1,0 +1,97 @@
+.topbanner{
+  background-color: #aa77aa;
+  height:100px;
+  margin:0px;
+
+}
+body{
+  margin:0px;
+}
+
+h1{
+  margin:0px;
+}
+
+ul{
+  margin:0px;
+}
+.linkstuff li:after{
+  padding-right: 7px;
+  content: " | ";
+}
+
+
+.topname{
+background-color:inherit;
+margin-top:35px;
+font-size:26px;
+margin-right:250px;
+float:left;
+padding-left:10px;
+}
+
+.linkstuff{
+  float:left;
+  color:black;
+  margin-top:35px;
+  margin-left:30px;
+}
+
+.socialmedia i{
+  margin-left:300px;
+}
+
+.mainbanner{
+  height: 300px;
+  background: url("../img/garchompwall.png");
+  background-size:cover;
+  background-attachment: fixed;
+  text-align:center;
+}
+.mainbanner h1{
+  font-size:50px;
+  padding-top: 100px;
+  margin:0px;
+}
+
+
+#skillpart h2{
+  margin:0px;
+}
+
+#skillpart{
+  background-color:#997799;
+  height:400px;
+}
+
+.sectbox{
+  width:300px;
+  float:left;
+  margin-right:7%;
+  margin-left:2%;
+  margin-top:1%;
+  border: 3px solid;
+}
+
+.majestic{
+height:350px;
+background-color:blue;
+
+}
+
+.majestic p{
+  margin:0px;
+  padding-top:10px;
+  margin-left:10%;
+  float:left;
+  width:400px;
+}
+
+.majestic img{
+  float:left;
+  margin:0px;
+  width:300px;
+  padding-top:10px;
+  padding-left:10px;
+  border-radius:100%;
+}
