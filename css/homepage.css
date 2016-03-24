@@ -74,7 +74,7 @@ padding-left:10px;
 }
 
 .majestic{
-height:350px;
+height:500px;
 background-color:blue;
 
 }
@@ -90,12 +90,84 @@ background-color:blue;
 .majestic img{
   float:left;
   margin:0px;
-  width:300px;
-  padding-top:10px;
-  padding-left:10px;
+  width:350px;
+  padding: 40px;
   border-radius:100%;
 }
 
+#blurb{
+  width:600px;
+  margin-top:85px;
+  margin-left:200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom:10px;
+  text-align: justify;
+  border: 1px dashed;
+  float:left;
+}
 
+.boxlabel{
+margin:0px;
+width:500px;
+}
+
+.footerthing{
+  background-color: #aa77aa;
+  height:200px;
+}
+#copydisclaimer{
+  margin: 0px 15px 0px 45%;
+  padding-top:40px;
+  text-shadow: 0 1px 0 #ccc,
+             0 2px 0 #c9c9c9,
+             0 3px 0 #bbb,
+             0 4px 0 #b9b9b9,
+             0 5px 0 #aaa,
+             0 6px 1px rgba(0,0,0,.1),
+             0 0 5px rgba(0,0,0,.1),
+             0 1px 3px rgba(0,0,0,.3),
+             0 3px 5px rgba(0,0,0,.2),
+             0 5px 10px rgba(0,0,0,.25),
+             0 10px 10px rgba(0,0,0,.2),
+             0 20px 20px rgba(0,0,0,.15);
+}
+.spacingstuff{
+  margin:0px;
+  margin-right:45%;
+  float:left:
+}
+.footicon {
+    /*display: inline-block;*/
+    float:left;
+    margin-right: 5px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left:45%;
+    font-size: 50px;
+}
+.footicon2 {
+    display: inline-block;
+    float:left;
+    margin-right: 5px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.headicon {
+  float:left;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-left:33%;
+}
 
 /* Testing gh pages */
