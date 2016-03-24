@@ -186,4 +186,14 @@ margin-top:20px;
 
 
 }
+
+.yomama{
+height:500px;
+background-color:cyan;
+}
+.yomama img{
+  margin-left:30%;
+  margin-top:20px;
+}
+
 /* Testing gh pages */
