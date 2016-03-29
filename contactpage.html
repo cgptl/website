@@ -1,11 +1,19 @@
 <!doctype html>
 <html>
    <head>
-
+     <script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(36.816444,-119.747489),zoom:14,mapTypeId:google.maps.MapTypeId.ROADMAP};
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
      <link href="css/homepage.css" rel="stylesheet"/>
-     <title> Homepage of DOOM! </title>
+     <title> Contact Page of DOOM! </title>
    </head>
    <body>
   <div>
@@ -21,7 +29,7 @@
           <a href="aboutpage.html"> About</a>
         </li>
         <li class="linkstuff">
-          <a href="contactpage.html"> Contact</a>
+          <a href="#"> Contact</a>
         </li>
       </ul>
       <div class="headicon">
@@ -35,21 +43,52 @@
 
     <!-- Begin main banner -->
         <div class="mainbanner">
-          <h1> hOI! i'm tEMMIE!!! </h1>
-          <p> I actually don't really like Descartes very much, except as a mathematician. His philosophy was kind of silly or at least not what I'd call important, in my opinion. </p>
+          <h1> Need to chat? </h1>
+          <p> I'm notoriously elusive. Catch me if you can! </p>
         </div>
     <!-- End main banner -->
-    <!-- Picture of an otter! -->
-                 <div class="rudderbutt">
-                   <img src="img/otterlick.jpg" />
-                   <p> Just another day in the life, ya know?</p>
-                 </div>
 
 
-    <div class="videostuff">
-      <iframe id="cartesianvideo" src="https://www.youtube.com/embed/CAjWUrwvxs4" ></iframe>
-      <p> <br> <br> Rene Descartes is a famous dead guy who makes me wonder how the crap people ever lived with a bunch of whackjobs running their whole world. I mean, seriously, why would anyone need to wonder about whether or not they exist? Can you believe we pay people for this stuff today, and they sit in their offices and look down their noses at students for not having thought through whether or not the proverbial tree makes a sound if no one is around to hear it?</p>
+    <!-- here's the map -->
+    <div class=googsofgoogs>
+      <div id="googleMap" style="width:1000px;height:350px;margin:0px 12.5%;"></div>
     </div>
+
+    <!-- end of map -->
+
+
+    <div class="contactinfo">
+      <div class="textboxes">
+
+
+        <form method="post" action="mailto:tielraptor.lx@mail.fresnostate.edu">
+          <h5> </h5> <!--redacted-->
+          <h2> Contact me!</h2>
+          <input type="text" name="name" placeholder="your name">
+          <input type="text" name="email" placeholder="your email">
+          <input type="text" name="subject" placeholder="subject">
+          <textarea name="message" id="msg" placeholder="tell me something!"></textarea>
+          <h5> </h5>
+          <button type="submit" value="Send">Send</button>
+
+        </form>
+
+      </div>
+      <div class="finallist">
+        <ul>
+          <li>5241 N Maple Ave,</li>
+          <li> Fresno, CA 93740</li>
+          <li>(555) 555-5555</li>
+          <li>cgpchrome@gmail.com</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+
+
+
 
 
 

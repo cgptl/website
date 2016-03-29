@@ -148,6 +148,10 @@ width:500px;
     margin-left:45%;
     font-size: 50px;
 }
+.footicon i{
+padding:4px;
+margin-left:3px;
+}
 .footicon2 {
     display: inline-block;
     float:left;
@@ -157,6 +161,10 @@ width:500px;
     width: 50px;
     border-radius: 50%;
     font-size: 50px;
+}
+.footicon2 i{
+  padding:4px;
+
 }
 .headicon {
   float:left;
@@ -187,18 +195,78 @@ margin-top:20px;
 
 }
 
-.yomama{
+.rudderbutt{
 height:500px;
-background-color:cyan;
+background-color: #313C74;;
 }
-.yomama img{
+.rudderbutt img{
   margin-left:27%;
   margin-top:20px;
 }
-.yomama p{
+.rudderbutt p{
   text-align: center;
   margin-top:20px;
 }
 
 
 /* Testing gh pages */
+
+.textboxes{
+  height:30px;
+  width:50%;
+  float:left;
+  margin-left:150px;
+}
+.contactinfo
+{
+  height:430px;
+  width:1347px;
+  background-color: #aa63aa;
+}
+
+.textboxes form{
+  width:700px;
+  height:400px;
+  float:left;
+}
+.textboxes form input{
+width:450px;
+margin-bottom:5px;
+}
+.textboxes form textarea{
+  width:450px;
+  height:130px;
+}
+.textboxes form h2{
+  margins:0px;
+  height:10px;
+  color:white;
+}
+.textboxes form h5{
+  margins:0px;
+  height:10px;
+  color:white;
+}
+.textboxes form button {
+    width: 150px;
+    height: 50px;
+    background-color: #313C74;
+    border: 1px solid #313C74;
+    font-size: 1.2em;
+    color: #fff;
+    cursor: pointer;
+}
+.finallist{
+  height:150px;
+  width:400px;
+  float:right;
+  margin-top:50px;
+  margin-right:300px;
+}
+
+.finallist ul{
+  list-style: none;
+  font-size:25px;
+  color:white;
+  font-family: sans-serif;
+}
