@@ -52,6 +52,7 @@ padding-left:10px;
   font-size:50px;
   padding-top: 100px;
   margin:0px;
+  font-family:serif;
 }
 
 
@@ -71,6 +72,13 @@ padding-left:10px;
   margin-left:2%;
   margin-top:1%;
   border: 3px solid;
+
+}
+.sectbox h2{
+  text-align:center;
+}
+.sectbox p{
+  text-align:justify;
 }
 
 .majestic{
