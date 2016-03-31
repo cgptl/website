@@ -66,8 +66,10 @@ padding-left:10px;
 }
 
 .sectbox{
+  height:280px;
   width:300px;
   float:left;
+  padding:5px;
   margin-right:7%;
   margin-left:2%;
   margin-top:1%;
